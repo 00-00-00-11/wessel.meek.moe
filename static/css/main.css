@@ -2,7 +2,6 @@ body {
   color: #FFFFFF;
   background: #333333 url("static/img/bg.png");
   font-family: "Russo One", sans-serif;
-  font-size: auto;
 }
 
 hr {
@@ -52,6 +51,26 @@ a:link, a:visited, a:active {
   color: #F87920;
 }
 
+.btn {
+  color: #333 !important;
+  border: 0.5px solid #000 !important;
+  cursor: pointer;
+  padding: 7px 20px;
+  min-width: 110px;
+  background: #EEEEEE;
+  transition: 0s background, 0s color;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #888;
+}
+
 footer {
   background-color: #272727;
   position: absolute;
@@ -96,18 +115,4 @@ footer {
 .logo {
   border-radius: 10%;
   margin-top: 5%;
-}
-
-.cool_button {
-  display: block;
-  padding: 10px;
-  background: rgba(25, 25, 25, 0.5);
-  border-radius: 10px;
-  color: #fff !important;
-}
-
-.cool_button:hover {
-  color: #F87920;
-  text-decoration: none;
-  background: #181818;
 }
