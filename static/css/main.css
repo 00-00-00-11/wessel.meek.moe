@@ -1,7 +1,22 @@
 body {
   color: #FFFFFF;
+  display: flex;
   background: #333333 url("static/img/bg.png");
+  flex-direction: column;
   font-family: "Russo One", sans-serif;
+}
+
+.content {
+  width: auto;
+  min-width: 655px;
+  max-width: 630px;
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-top: 5%;
+  border-radius: 10%;
 }
 
 hr {
@@ -36,7 +51,7 @@ small {
 }
 
 .gray {
-  color: #cacaca;
+  color: #cacaca !important;
 }
 
 .emerald {
@@ -53,7 +68,7 @@ a:link, a:visited, a:active {
 
 .btn {
   color: #333 !important;
-  border: 0.5px solid #000 !important;
+  border: 0.5px solid #000;
   cursor: pointer;
   padding: 7px 20px;
   min-width: 110px;
@@ -71,14 +86,16 @@ a:link, a:visited, a:active {
   background: #888;
 }
 
-footer {
-  background-color: #272727;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 25px;
+.footer {
+  background-color: #23272A;
+  border-radius: 10%;
+  margin-bottom: 10px;
   width: 100%;
   overflow: hidden;
+}
+
+.projects {
+  margin-left: 5%;
 }
 
 .icon_set a {
@@ -99,20 +116,11 @@ footer {
   margin-right: 4px;
 }
 
-.projects {
-  margin-left: 5%;
-}
-
 .unselectable {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
-}
-
-.logo {
-  border-radius: 10%;
-  margin-top: 5%;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
