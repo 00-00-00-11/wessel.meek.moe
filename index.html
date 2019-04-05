@@ -34,11 +34,15 @@
 
     <link rel="stylesheet" type="text/css" href="static/css/all.css">
     
-    <script src="static/js/jquery.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/bootstrap.js"></script>
   </head>
   <body>
-  <div class="container center main_slide content">
+    <script>
+      $(function(){$('.code-icons i').tooltip();toggle_things=function(first,second){$('.'+first).slideUp('fast',function(){$('.'+second).slideDown('fast')})}});
+    </script>
+
+    <div class="container center main_slide content">
       <div class="row">
         <div class="col-xs-6">
           <img class="logo" src="static/img/logo.webp">
@@ -107,6 +111,5 @@
     <br /><br /><br /><br />
 
     <footer class="footer">Site made with <span style="color: #551A8B">&lt;3</span> by <a href="https://github.com/PassTheWessel">Wesselgame</a> | Source code on <a href="https://github.com/PassTheWessel/wessel.meek.moe">GitHub</a></footer>
-    <script src="static/js/main.min.js"></script>
   </body>
 </html>
