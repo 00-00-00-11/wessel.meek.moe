@@ -20,7 +20,7 @@ onKonamiCode(function () {
     '<br />',
     '<span class="emerald">This is a secret konami easter egg</span>',
     '<br />',
-    'You might\'ve found this page legitemately, if so well done!',
+    'You might\'ve found this page legitimately , if so well done!',
     '<br />',
     '<span style="color: red;">But if you lurked in the code and found this, you ruined the easter egg :(</span>',
     '<br />',
